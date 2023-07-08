@@ -1,10 +1,12 @@
-print("dasda")
-print("dasda")
+"""
+a,b=map(float,input().split())
+print(a*b)
+//6036
+"""
 
-print("dasda")
 
-print("dasda")
-
-print("dasda")
-
+"""
+n = input()
+s = input()
+print(int(n)*s) //6037 """
 
