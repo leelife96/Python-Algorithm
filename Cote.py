@@ -41,7 +41,7 @@ print(a+b+c)
 print(format((a+b+c)/3,".2f")) //6045 """
 
 
-array = []
+"""array = []
 
 for i in range(10):
     array.append(list(map(int, input().split())))
@@ -66,5 +66,34 @@ while True:
 for i in range(10):
     for j in range(10):
         print(array[i][j], end=' ')
-    print()
+    print()  // 6098 """
 
+"""a = dict()
+a['홍길동'] = 97
+a['이순신'] = 98
+print(a)
+
+b = {
+    '홍길동' : 97, 
+    '이순신' : 98
+}
+print(b)
+print(b['이순신'])
+
+key_list = list(b.keys())
+print(key_list)"""
+
+"""data = set([1, 1, 2, 3, 4, 4, 5])
+print(data)
+"""
+
+"""import sys
+
+data = sys.stdin.readline().rstrip()
+print(data)
+"""
+
+a = int(input())
+
+for i in range(1, 10):
+    print(a, '*', i, '=', a*i)
