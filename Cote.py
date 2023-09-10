@@ -87,11 +87,11 @@ print(key_list)"""
 print(data)
 """
 
-"""import sys
+import sys
 
 data = sys.stdin.readline().rstrip()
 print(data)
-"""
+
 
 a = int(input())
 
