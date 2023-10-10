@@ -259,20 +259,28 @@ print(data)
 # for i in word:
 #     print(i)
 
-from collections import deque
-import sys
+# from collections import deque
+# import sys
+#
+# N, K = map(int, sys.stdin.readline().split())
+# res = []
+# dq = deque([i for i in range(1, N+1)])
+# while len(dq) != 0:
+#     for i in range(K-1):
+#         dq.append(dq.popleft())
+#     res.append(dq.popleft())
+#
+# print('<', end='')
+# for i in range(len(res)-1):
+#     print("%d, " % res[i], end='')
+# print(res[-1], end='')
+# print('>', end='')
 
-N, K = map(int, sys.stdin.readline().split())
-res = []
-dq = deque([i for i in range(1, N+1)])
-while len(dq) != 0:
-    for i in range(K-1):
-        dq.append(dq.popleft())
-    res.append(dq.popleft())
+test = [(2, 8), (1, 3), (7, 9), (6, 1), (4, 5)]
+print(sorted(test))
+print(sorted(test, key = lambda x:x))
+print(sorted(test, key=lambda x:x[0]))
+print(sorted(test, key=lambda x:x[1]))
 
-print('<', end='')
-for i in range(len(res)-1):
-    print("%d, " % res[i], end='')
-print(res[-1], end='')
-print('>', end='')
-
+print(sorted(test, reverse=True))
+print(sorted(test, key = lambda x:(x[0],-x[1])))
