@@ -3,7 +3,7 @@
 ### [문제링크](https://www.acmicpc.net/problem/1259)
 
 ### <span style="color:orange"> 문제 해석 </span>
-슬라이싱을 이용해서 푸는 문제이다. 
+슬라이싱을 이용해서 푸는 문제이다.
 
 ### [슬라이싱 개념 링크] 
 (https://jongminfire.dev/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1-slicing)
