@@ -275,12 +275,16 @@ print(data)
 #     print("%d, " % res[i], end='')
 # print(res[-1], end='')
 # print('>', end='')
+#
+# test = [(2, 8), (1, 3), (7, 9), (6, 1), (4, 5)]
+# print(sorted(test))
+# print(sorted(test, key = lambda x:x))
+# print(sorted(test, key=lambda x:x[0]))
+# print(sorted(test, key=lambda x:x[1]))
+#
+# print(sorted(test, reverse=True))
+# print(sorted(test, key = lambda x:(x[0],-x[1])))
 
-test = [(2, 8), (1, 3), (7, 9), (6, 1), (4, 5)]
-print(sorted(test))
-print(sorted(test, key = lambda x:x))
-print(sorted(test, key=lambda x:x[0]))
-print(sorted(test, key=lambda x:x[1]))
+import sys
 
-print(sorted(test, reverse=True))
-print(sorted(test, key = lambda x:(x[0],-x[1])))
+
