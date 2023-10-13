@@ -10,3 +10,5 @@ for i in range(1, N+1):
         break
     if i == N:
         print(0)
+
+
