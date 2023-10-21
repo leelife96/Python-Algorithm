@@ -11,3 +11,4 @@ for _ in range(T):
                people[i] += people[i-1]
      print(people[n - 1])
 
+
