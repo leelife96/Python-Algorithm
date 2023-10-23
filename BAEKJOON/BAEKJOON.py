@@ -285,3 +285,16 @@ print(data)
 # print(sorted(test, reverse=True))
 # print(sorted(test, key = lambda x:(x[0],-x[1])))
 
+import sys
+
+N = int(sys.stdin.readline())
+chi_list = []
+for _ in range(N):
+    chi_list.append(sys.stdin.readline().split())
+
+for i in range(N):
+    rank = 1
+    for j in range(N):
+        if (chi_list[i][0] < chi_list[j][0]) and (chi_list[i][1] < chi_list[j][1]):
+            rank += 1
+    print(rank)

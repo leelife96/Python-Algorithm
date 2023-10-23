@@ -3,9 +3,6 @@ import sys
 
 N, K = map(int, sys.stdin.readline().split())
 res = []
-# dq = deque()
-# for i in range(1, N+1):
-#     dq.append(i)
 dq = deque([i for i in range(1, N+1)])
 
 while len(dq) != 0:
@@ -18,4 +15,6 @@ for i in range(len(res) - 1):
     print("%d, "%res[i], end='')
 print(res[-1], end='')
 print('>', end='')
+
+
 
