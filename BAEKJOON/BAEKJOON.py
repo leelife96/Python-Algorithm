@@ -285,5 +285,3 @@ print(data)
 # print(sorted(test, reverse=True))
 # print(sorted(test, key = lambda x:(x[0],-x[1])))
 
-import sys
-
